@@ -1,3 +1,5 @@
+#18/20
+
 #SECTION 2 - FUNCTIONS (20PTS TOTAL)
 import math
 import random
@@ -65,11 +67,15 @@ def powers_of_e():
 
 powers_of_e()
 
+# Lee - Use a loop.  (DRY Principle, 2nd time) (-1)
+
 # PROBLEM 5 (Random int - 3pts)
 # Generate a random integer between 1 and 10 (1 and 10 both included),
 # but only use the random() function (randrange is not allowed here)
 bloop = round(random.random(),1) * 10
 print(bloop)
+
+# Lee - This does not print 1 to 10 randomly.  It rounds, so that means the number 1 and 10 will occur only half as often. (-1)
 
 # PROBLEM 6 (add me, multiply me - 3pts)
 # Make a function which takes in two integers and RETURNS their sum AND their product.

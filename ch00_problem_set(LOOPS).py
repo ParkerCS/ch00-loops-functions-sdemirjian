@@ -1,3 +1,5 @@
+#22/22
+
 # LOOPS (22pts TOTAL)
 import random
 
@@ -58,6 +60,8 @@ for i in range(100000):
         successes += 1
 print("Chances of success = ", successes / 100000)
 print()
+
+# Lee - Use a for loop to roll five die (DRY).  Good use of python conditional.
 
 # PROBLEM 4 (Number Puzzler - 6pts)
 # A, B, C, and D are all different digits.
