@@ -47,20 +47,16 @@ print()
 # but “1, 1, 4, 3, 6” is not. Determine the
 # probability of success using a simulation of a large number of trials.
 successes = 0
-failures  = 0
-for i in range(1000):
+for i in range(100000):
     num1 = random.randrange(1,7)
     num2 = random.randrange(1,7)
     num3 = random.randrange(1,7)
     num4 = random.randrange(1,7)
     num5 = random.randrange(1,7)
-    num6 = random.randrange(1,7)
 
-    if num1 <= num2 <= num3 <= num4 <= num5 <= num6:
+    if num1 <= num2 <= num3 <= num4 <= num5:
         successes += 1
-    else:
-        failures += 1
-print("Chances of success = ", successes / 1000)
+print("Chances of success = ", successes / 100000)
 print()
 
 # PROBLEM 4 (Number Puzzler - 6pts)
